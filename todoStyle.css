@@ -1,0 +1,53 @@
+#newTaskHolderContainer .newTaskHolder{
+    min-height: 3rem;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2.5rem /* 40px */;
+    padding-right: 2.5rem /* 40px */;
+    --tw-bg-opacity: 1;
+    background-color: rgb(71 85 105 / var(--tw-bg-opacity)) /* #475569 */;
+    align-items: center;
+    margin-top: 0.25rem /* 4px */;
+    border-radius: 0.25rem /* 4px */;
+}
+
+#newTaskHolderContainer .newTaskHolder ul{
+    font-size: 1rem;
+    display: flex;
+}
+
+#newTaskHolderContainer .newTaskHolder .eds-container{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.eds-container .edit-btn{
+    color: orange;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    color :aqua;
+    border-width: 1px;
+    padding-left: 1.25rem /* 20px */;
+    padding-right: 1.25rem 
+}
+
+.eds-container .delete-btn{
+    color: red;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    color: red;
+    border-width: 1px;
+    padding-left: 1.25rem /* 20px */;
+    padding-right: 1.25rem 
+}
